@@ -4,11 +4,14 @@ Rotate recipies all logged in a csv or json file
 
 ## Functionality
 
-- [x] Choose Cusine
-- [ ] Ingredients List w/ Type and Quantity
+- [x] Choose cuisine
+- [ ] Create preset ingredients list w/ type and quantity
+- [ ] Display choice with list
+- [ ] Add a recipie to JSON 
+
 
 ## Reach Goals
-
+- [ ] Multiplier per person
 - [ ] Nutrition Facts
 
 ## Built with

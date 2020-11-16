@@ -1,132 +1,271 @@
 {
     "cuisine": {
         "Italian": [
+            
             {
                 "name": "Alfredo Pasta", 
                 "ingredients" : [
-                    "Butter", 
-                    "Minced Garlic", 
-                    "Heavy Cream", 
-                    "Parmesan",
-                    "Pasta", 
-                    "Starch Water"
-                ], 
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Roasted Pine Nuts",
-                    "Garlic", 
-                    "Parmesan", 
-                    "Basil", 
-                    "Olive Oil", 
-                    "Pasta", 
-                    "Starch Water"
+                    {
+                        "quantity": "1/4 stick",
+                        "name": "Butter",
+                        "type": "Dairy"
+                    },
+                    {
+                        "quantity": "3 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "8oz",
+                        "name": "Heavy Cream",
+                        "type": "Dairy"
+                    },
+                    {
+                        "quantity": "3oz",
+                        "name": "Shredded Parmesan",
+                        "type": "Cheese"
+                    },
+                    {
+                        "quantity": "1/2 pound - 8oz",
+                        "name": "Pasta",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "1/2 cup",
+                        "name": "Pasta Water",
+                        "type": "Starch"
+                    }
                 ],
+                "steps": [
+                    "Cook minced garlic for a few mins with a little oil or butter.",
+                    "Add heavy cream and cook until thicken.",
+                    "Add shredded parmesan, simmer until homogenous.",
+                    "Salt and pepper to taste",
+                    "Boil pasta and reserve pasta water (don't forget to add salt).",
+                    "Add sauce with pasta, add pasta water if needed.",
+                    "Enjoy!"
+                ]
+            },
+            {
                 "name": "Pesto Pasta", 
                 "ingredients" : [
-                    "Minced Onions",
-                    "Minced Garlic",
-                    "Crushed Tomatoes",
-                    "Sugar",
-                    "Pasta",
-                    "Starch Water"
+                    {
+                        "quantity": "1/2 cup",
+                        "name": "Pine Nuts",
+                        "type": "Nuts"
+                    },
+                    {
+                        "quantity": "2 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "3oz",
+                        "name": "Parmesan",
+                        "type": "Cheese"
+                    },
+                    {
+                        "quantity": "3 to 4 bunches",
+                        "name": "Basil",
+                        "type": "Herb"
+                    },
+                    {
+                        "quantity": "3/4 cup",
+                        "name": "Olive Oil",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "1/2 pound - 8oz",
+                        "name": "Pasta",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "half a cup",
+                        "name": "Pasta Water",
+                        "type": "Starch"
+                    }
                 ]
-            } 
+            },
+            {
+                "name": "Meatball Marinara Pasta", 
+                "ingredients" : [
+                    {
+                        "quantity": "1 medium-sized",
+                        "name": "Onion",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "28oz Can",
+                        "name": "Crush Tomatoes",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "2 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "a pinch",
+                        "name": "Sugar",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "half a pound (8oz)",
+                        "name": "Pasta",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "half a cup",
+                        "name": "Pasta Water",
+                        "type": "Starch"
+                    },
+                    {
+                        "meat option": [
+                            {
+                                "quantity": "1 pound",
+                                "name": "Beef and/or Pork",
+                                "type": "Protein"
+                            },
+                            {
+                                "quantity": "1",
+                                "name": "Egg",
+                                "type": "Protein"
+                            },
+                            {
+                                "quantity": "1/2 cup",
+                                "name": "Breadcrumbs",
+                                "type": "Carbohydrate"
+                            },
+                            {
+                                "quantity": "to desire",
+                                "name": "Seasoning - Onion, Garlic, Oregano, Basil, Salt, Pepper",
+                                "type": "Aromatics"
+                            },
+                            {
+                                "quantity": "to desire",
+                                "name": "Parmesan",
+                                "type": "Cheese"
+                            }
+                        ]
+                    }
+                ]
+            }
         ],
         "Mexican": [
             {
-                "name": "Alfredo Pasta", 
+                "name": "Fajitas", 
                 "ingredients" : [
-                    "Butter", 
-                    "Minced Garlic", 
-                    "Heavy Cream", 
-                    "Parmesan",
-                    "Pasta", 
-                    "Starch Water"
-                ], 
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Roasted Pine Nuts",
-                    "Garlic", 
-                    "Parmesan", 
-                    "Basil", 
-                    "Olive Oil", 
-                    "Pasta", 
-                    "Starch Water"
-                ],
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Minced Onions",
-                    "Minced Garlic",
-                    "Crushed Tomatoes",
-                    "Sugar",
-                    "Pasta",
-                    "Starch Water"
+                    {
+                        "quantity": "1 pound",
+                        "name": "Choice of Meat: Chicken, Shrimp, Beef, etc",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "3 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1/2",
+                        "name": "Red Bell Pepper",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "1/2",
+                        "name": "Green Bell Pepper",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "1 medium-sized",
+                        "name": "Yellow Onion",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "1/4 stick",
+                        "name": "Butter",
+                        "type": "Dairy"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Uncle Chris Steak Seasoning",
+                        "type": "Aromatics"
+                    }
                 ]
-            } 
+            }
         ],
         "Asian": [
             {
-                "name": "Alfredo Pasta", 
+                "name": "Fried Rice", 
                 "ingredients" : [
-                    "Butter", 
-                    "Minced Garlic", 
-                    "Heavy Cream", 
-                    "Parmesan",
-                    "Pasta", 
-                    "Starch Water"
-                ], 
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Roasted Pine Nuts",
-                    "Garlic", 
-                    "Parmesan", 
-                    "Basil", 
-                    "Olive Oil", 
-                    "Pasta", 
-                    "Starch Water"
-                ],
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Minced Onions",
-                    "Minced Garlic",
-                    "Crushed Tomatoes",
-                    "Sugar",
-                    "Pasta",
-                    "Starch Water"
+                    {
+                        "quantity": "2 cups (pre-cooked)",
+                        "name": "Cold Rice",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "2 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1 pound",
+                        "name": "Choice of Meat: Chicken, Shrimp, Beef, etc",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "2",
+                        "name": "Eggs",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "1 cup",
+                        "name": "Mixed Vegetables: Minced Carrots, Peas, Corn",
+                        "type": "Vegetables"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Sauce: Soy Sauce, Oyster Sauce, Mirin, Sesame Oil, and Sugar/Honey",
+                        "type": "Aromatic"
+                    }
                 ]
-            } 
+            }
         ],
         "American": [
             {
-                "name": "Alfredo Pasta", 
+                "name": "Cheese Burgers", 
                 "ingredients" : [
-                    "Butter", 
-                    "Minced Garlic", 
-                    "Heavy Cream", 
-                    "Parmesan",
-                    "Pasta", 
-                    "Starch Water"
-                ], 
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Roasted Pine Nuts",
-                    "Garlic", 
-                    "Parmesan", 
-                    "Basil", 
-                    "Olive Oil", 
-                    "Pasta", 
-                    "Starch Water"
-                ],
-                "name": "Pesto Pasta", 
-                "ingredients" : [
-                    "Minced Onions",
-                    "Minced Garlic",
-                    "Crushed Tomatoes",
-                    "Sugar",
-                    "Pasta",
-                    "Starch Water"
+                    {
+                        "quantity": "1/2 medium-sized",
+                        "name": "Onion",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "1 pound",
+                        "name": "Ground Meat: Beef, Pork, Chicken, or Turkey",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "8",
+                        "name": "Burger Buns ",
+                        "type": "Carbohydrates"
+                    },
+                    {
+                        "quantity": "8",
+                        "name": "Sliced Cheese: American, Pepper Jack",
+                        "type": "Cheese"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Sliced Lettuce",
+                        "type": "Vegetable"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Sliced Tomato",
+                        "type": "Vegetable"
+                    }
                 ]
-            } 
+            }
         ]
     }
 }
