@@ -2,12 +2,12 @@ import pandas as pd
 import json
 import inquirer
 
-with open('./recipies.json') as f: 
+with open('./recipes.json') as f: 
     data = json.load(f)
 
 print(data)
 
-df = pd.read_json('./recipies.json')
+df = pd.read_json('./recipes.json')
 print(df)
 
 
