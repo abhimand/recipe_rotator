@@ -1,8 +1,134 @@
 {
-    "cuisine": [
-        "mexican",
-        "italian",
-        "indian",
-        "asian"
-    ]
-  }
+    "cuisine": {
+        "Italian": [
+            {
+                "name": "Alfredo Pasta", 
+                "ingredients" : [
+                    "Butter", 
+                    "Minced Garlic", 
+                    "Heavy Cream", 
+                    "Parmesan",
+                    "Pasta", 
+                    "Starch Water"
+                ], 
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Roasted Pine Nuts",
+                    "Garlic", 
+                    "Parmesan", 
+                    "Basil", 
+                    "Olive Oil", 
+                    "Pasta", 
+                    "Starch Water"
+                ],
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Minced Onions",
+                    "Minced Garlic",
+                    "Crushed Tomatoes",
+                    "Sugar",
+                    "Pasta",
+                    "Starch Water"
+                ]
+            } 
+        ],
+        "Mexican": [
+            {
+                "name": "Alfredo Pasta", 
+                "ingredients" : [
+                    "Butter", 
+                    "Minced Garlic", 
+                    "Heavy Cream", 
+                    "Parmesan",
+                    "Pasta", 
+                    "Starch Water"
+                ], 
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Roasted Pine Nuts",
+                    "Garlic", 
+                    "Parmesan", 
+                    "Basil", 
+                    "Olive Oil", 
+                    "Pasta", 
+                    "Starch Water"
+                ],
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Minced Onions",
+                    "Minced Garlic",
+                    "Crushed Tomatoes",
+                    "Sugar",
+                    "Pasta",
+                    "Starch Water"
+                ]
+            } 
+        ],
+        "Asian": [
+            {
+                "name": "Alfredo Pasta", 
+                "ingredients" : [
+                    "Butter", 
+                    "Minced Garlic", 
+                    "Heavy Cream", 
+                    "Parmesan",
+                    "Pasta", 
+                    "Starch Water"
+                ], 
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Roasted Pine Nuts",
+                    "Garlic", 
+                    "Parmesan", 
+                    "Basil", 
+                    "Olive Oil", 
+                    "Pasta", 
+                    "Starch Water"
+                ],
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Minced Onions",
+                    "Minced Garlic",
+                    "Crushed Tomatoes",
+                    "Sugar",
+                    "Pasta",
+                    "Starch Water"
+                ]
+            } 
+        ],
+        "American": [
+            {
+                "name": "Alfredo Pasta", 
+                "ingredients" : [
+                    "Butter", 
+                    "Minced Garlic", 
+                    "Heavy Cream", 
+                    "Parmesan",
+                    "Pasta", 
+                    "Starch Water"
+                ], 
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Roasted Pine Nuts",
+                    "Garlic", 
+                    "Parmesan", 
+                    "Basil", 
+                    "Olive Oil", 
+                    "Pasta", 
+                    "Starch Water"
+                ],
+                "name": "Pesto Pasta", 
+                "ingredients" : [
+                    "Minced Onions",
+                    "Minced Garlic",
+                    "Crushed Tomatoes",
+                    "Sugar",
+                    "Pasta",
+                    "Starch Water"
+                ]
+            } 
+        ]
+    }
+}
+
+
