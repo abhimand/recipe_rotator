@@ -1,4 +1,4 @@
-# Recipie Rotator
+# Recipe Rotator
 
 Rotate recipies all logged in a csv or json file
 
@@ -6,8 +6,10 @@ Rotate recipies all logged in a csv or json file
 
 - [x] Choose cuisine
 - [ ] Create preset ingredients list w/ type and quantity
-- [ ] Display choice with list
-- [ ] Add a recipie to JSON 
+- [x] Randomly select choice with details (ingredients, steps, time, and credits)
+- [ ] Add a recipe to JSON 
+- [ ] Choose a recipe from JSON 
+- [ ] Select time range you have
 
 
 ## Reach Goals

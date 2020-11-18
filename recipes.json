@@ -1,9 +1,10 @@
 {
     "cuisine": {
         "Italian": [
-            
             {
                 "name": "Alfredo Pasta", 
+                "credits" : "all italian grandmothers out there",
+                "cookTime": "35 mins",
                 "ingredients" : [
                     {
                         "quantity": "1/4 stick",
@@ -39,6 +40,7 @@
                 "steps": [
                     "Cook minced garlic for a few mins with a little oil or butter.",
                     "Add heavy cream and cook until thicken.",
+                    "Start boiling water for pasta",
                     "Add shredded parmesan, simmer until homogenous.",
                     "Salt and pepper to taste",
                     "Boil pasta and reserve pasta water (don't forget to add salt).",
@@ -48,6 +50,8 @@
             },
             {
                 "name": "Pesto Pasta", 
+                "credits": "Bon Appetit",
+                "cookTime": "35 mins",
                 "ingredients" : [
                     {
                         "quantity": "1/2 cup",
@@ -84,10 +88,22 @@
                         "name": "Pasta Water",
                         "type": "Starch"
                     }
+                ],
+                "steps": [
+                    "Roast pine nuts 350F for about 6 mins, toss halfway.",
+                    "Start boiling water for pasta",
+                    "Cool, then add to processor with garlic and parmesan. Blend for a bit",
+                    "Add basil and slowly drizzle in olive oil. Blend to desired consistency.",
+                    "Salt and pepper to taste.",
+                    "Boil pasta and reserve pasta water (don't forget to add salt).",
+                    "Drain pasta, then add sauce with pasta water and optionally parmesan",
+                    "Enjoy!"
                 ]
             },
             {
                 "name": "Meatball Marinara Pasta", 
+                "credits": "Andrew Rea from Binging with Babish",
+                "cookTime": "1 hour",
                 "ingredients" : [
                     {
                         "quantity": "1 medium-sized",
@@ -120,34 +136,44 @@
                         "type": "Starch"
                     },
                     {
-                        "meat option": [
-                            {
-                                "quantity": "1 pound",
-                                "name": "Beef and/or Pork",
-                                "type": "Protein"
-                            },
-                            {
-                                "quantity": "1",
-                                "name": "Egg",
-                                "type": "Protein"
-                            },
-                            {
-                                "quantity": "1/2 cup",
-                                "name": "Breadcrumbs",
-                                "type": "Carbohydrate"
-                            },
-                            {
-                                "quantity": "to desire",
-                                "name": "Seasoning - Onion, Garlic, Oregano, Basil, Salt, Pepper",
-                                "type": "Aromatics"
-                            },
-                            {
-                                "quantity": "to desire",
-                                "name": "Parmesan",
-                                "type": "Cheese"
-                            }
-                        ]
+                        "quantity": "1 pound",
+                        "name": "Beef and/or Pork",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "1",
+                        "name": "Egg",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "1/2 cup",
+                        "name": "Breadcrumbs",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Seasoning",
+                        "type": "Aromatics"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Parmesan",
+                        "type": "Cheese"
                     }
+                ],
+                "steps": [
+                    "Mix your choice of meat with egg, breadcrumbs, seasoning, and parmesan.",
+                    "We recommend salt, pepper, onion powder, garlic powder, oregano, and basil for seasoning.",
+                    "Form ball shape and bake at 400F for 15 to 20 mins.",
+                    "In the mean time, get a pot and cook your onions with butter or oil.",
+                    "Optional: Tomato paste but not crucial - helps amp up the flavor.",
+                    "Add can of crushed tomatoes and simmer on medium low heat for 30 mins.",
+                    "Start boiling water for pasta.",
+                    "At 30 mins mark, add meatballs and a pinch of sugar to help with acidity. Cook about 15-20 minutes more.",
+                    "Salt and pepper to taste.",
+                    "Boil pasta and reserve pasta water (don't forget to add salt).",
+                    "Add sauce with pasta, add pasta water if needed.",
+                    "Enjoy!"
                 ]
             }
         ],
@@ -157,7 +183,7 @@
                 "ingredients" : [
                     {
                         "quantity": "1 pound",
-                        "name": "Choice of Meat: Chicken, Shrimp, Beef, etc",
+                        "name": "Choice of Meat",
                         "type": "Protein"
                     },
                     {
@@ -189,7 +215,20 @@
                         "quantity": "to desire",
                         "name": "Uncle Chris Steak Seasoning",
                         "type": "Aromatics"
+                    }, 
+                    {
+                        "quantity": "to desire",
+                        "name": "Corn and/or Flour Tortillas",
+                        "type": "Carbohydrate"
                     }
+                ],
+                "steps": [
+                    "Slice bell peppers, onions, and protein into strips.",
+                    "Cook protein with seasoning in butter/oil until it is a little undercooked. Remove.", 
+                    "Cook minced garlic to lightly colored, then add veggies.",
+                    "Toss till cooked, then add protein back in.",
+                    "Warm up your tortillas",
+                    "Enjoy!"
                 ]
             }
         ],
@@ -209,7 +248,7 @@
                     },
                     {
                         "quantity": "1 pound",
-                        "name": "Choice of Meat: Chicken, Shrimp, Beef, etc",
+                        "name": "Choice of Meat",
                         "type": "Protein"
                     },
                     {
@@ -219,7 +258,7 @@
                     },
                     {
                         "quantity": "1 cup",
-                        "name": "Mixed Vegetables: Minced Carrots, Peas, Corn",
+                        "name": "Mixed Vegetables",
                         "type": "Vegetables"
                     },
                     {
@@ -227,6 +266,16 @@
                         "name": "Sauce: Soy Sauce, Oyster Sauce, Mirin, Sesame Oil, and Sugar/Honey",
                         "type": "Aromatic"
                     }
+                ],
+                "steps": [
+                    "Cook your eggs and remove once cooked.",
+                    "Cook your meat and remove once cooked.",
+                    "Cook minced garlic for a few mins with a little oil or butter.",
+                    "Add your veggies (we recommend carrots, peas, corn, and/or chopped bell peppers.",
+                    "Add your rice with the meat and eggs. Cook for a bit on high heat.",
+                    "Add your stir-fry sauce (we recommend a mixture of soy sauce, oyster Sauce, mirin, sesame oil, and sugar/honey).",
+                    "Finish off with salt and pepper to taste.",
+                    "Enjoy!"
                 ]
             }
         ],
@@ -263,7 +312,23 @@
                         "quantity": "to desire",
                         "name": "Sliced Tomato",
                         "type": "Vegetable"
+                    }, 
+                    {
+                        "quantity": "a pinch",
+                        "name": "Sugar",
+                        "type": "Carbohydrate"
                     }
+                ],
+                "steps": [
+                    "Roll up your ground meat with whatever seasoning you like into a medium-sized ball.",
+                    "With a spatula, smash your meat until flatten on a skillet or pan with medium-high heat.",
+                    "Flip and add a cheese on top",
+                    "Removed once cook. Repeat for all remaining meat.",
+                    "Warm up your buns with a light touch of butter.",
+                    "Chop up and cook your onions and with a pinch of sugar to caramelized.",
+                    "Optional: Chop up mushrooms and cook with salt and pepper",
+                    "Layer up your burger with desired toppings and sauce.",
+                    "Enjoy!"
                 ]
             }
         ]
