@@ -234,7 +234,9 @@
         ],
         "Asian": [
             {
-                "name": "Fried Rice", 
+                "name": "Fried Rice",
+                "credits" : "that hispanic dude that cooks in your local chinese take in the mall",
+                "cookTime": "35 mins", 
                 "ingredients" : [
                     {
                         "quantity": "2 cups (pre-cooked)",
@@ -282,6 +284,8 @@
         "American": [
             {
                 "name": "Cheese Burgers", 
+                "credits" : "all dads grilling on their patio",
+                "cookTime": "40 mins",
                 "ingredients" : [
                     {
                         "quantity": "1/2 medium-sized",
@@ -322,7 +326,7 @@
                 "steps": [
                     "Roll up your ground meat with whatever seasoning you like into a medium-sized ball.",
                     "With a spatula, smash your meat until flatten on a skillet or pan with medium-high heat.",
-                    "Flip and add a cheese on top",
+                    "Flip and add a cheese on top.",
                     "Removed once cook. Repeat for all remaining meat.",
                     "Warm up your buns with a light touch of butter.",
                     "Chop up and cook your onions and with a pinch of sugar to caramelized.",
