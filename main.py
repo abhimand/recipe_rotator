@@ -27,8 +27,7 @@ while True:
 
     ### Select
     if answers['choice'] == prelimChoices[1]: 
-        print(data['cuisine'])
-        s.selecting(df)
+        rs.selecting(df, data)
 
     ### Add
     if answers['choice'] == prelimChoices[2]: 

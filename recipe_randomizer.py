@@ -9,6 +9,7 @@ def randomSelect(df, data):
 
     ### choose recipe
     mood = df['cuisine'][answers['mood']]
+    print(mood)
     index = random.randint(0,len(mood) - 1)
 
     ### ingredients list

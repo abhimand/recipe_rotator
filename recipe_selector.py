@@ -3,8 +3,7 @@
 import inquirer
 
 # data is a dataframe
-def selecting(data): 
-    print(data)
+def selecting(df, data): 
     questions = [
         inquirer.List('mood',
                     message="Which cuisine?",
@@ -13,3 +12,8 @@ def selecting(data):
         # inquirer.Text('count', message="For how many folks?")
     ]
     answers = inquirer.prompt(questions)
+    displayList(answers['mood'], df, data)
+
+
+def displayList(mood, df, data):
+    print(data[mood])

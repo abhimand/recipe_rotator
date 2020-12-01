@@ -9,12 +9,17 @@ Rotate recipies all logged in a csv or json file
 - [x] Randomly select choice with details (ingredients, steps, time, and credits)
 - [ ] Add a recipe to JSON 
 - [ ] Choose a recipe from JSON 
-- [ ] Select time range you have
 
 
 ## Reach Goals
 - [ ] Multiplier per person
 - [ ] Nutrition Facts
+- [ ] Select time range you have
+
+
+## Addtional
+- [ ] Reformat data and df
+
 
 ## Built with
 
