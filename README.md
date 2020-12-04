@@ -1,25 +1,17 @@
 # Recipe Rotator
 
-Rotate recipies all logged in a csv or json file
+Rotate recipies all logged in a JSON file
 
 ## Functionality
 
-- [x] Choose cuisine
+- [x] Select a Cuisine
+- [x] Select a Meal from Cuisine list
+- [x] Randomly select choice with details
+- [x] Include details (ingredients, steps, time, and credits)
+
+## To-do
+- [ ] Reformat code
 - [ ] Create preset ingredients list w/ type and quantity
-- [x] Randomly select choice with details (ingredients, steps, time, and credits)
-- [ ] Add a recipe to JSON 
-- [ ] Choose a recipe from JSON 
-
-
-## Reach Goals
-- [ ] Multiplier per person
-- [ ] Nutrition Facts
-- [ ] Select time range you have
-
-
-## Addtional
-- [ ] Reformat data and df
-
 
 ## Built with
 

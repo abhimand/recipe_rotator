@@ -12,7 +12,7 @@ df = pd.read_json('./recipes.json')
 
 while True: 
     ### questionnaire flow
-    prelimChoices = ['Randomly select a recipe', 'Choose a recipe',  'Add a recipe']
+    prelimChoices = ['Randomly select a recipe', 'Choose a recipe']
     prelimQuestions = [
         inquirer.List('choice',
                     message="What do you want to do today?",
@@ -28,10 +28,6 @@ while True:
     ### Select
     if answers['choice'] == prelimChoices[1]: 
         rs.selecting(df, data)
-
-    ### Add
-    if answers['choice'] == prelimChoices[2]: 
-        rr.randomSelect(df, data)
 
     ### Check if user is done
     finishedQuestion = [

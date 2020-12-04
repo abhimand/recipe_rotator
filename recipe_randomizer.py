@@ -9,14 +9,17 @@ def randomSelect(df, data):
 
     ### choose recipe
     mood = df['cuisine'][answers['mood']]
-    print(mood)
     index = random.randint(0,len(mood) - 1)
 
     ### ingredients list
     string = ingredientsList(mood[index])
     print(string)
     ### write to textfile
-    text_file = open(mood[index]['name'] + ".txt", "w")
+    saveAsTextFile(mood[index], string)
+
+
+def saveAsTextFile(meal, string):
+    text_file = open(meal['name'] + ".txt", "w")
     n = text_file.write(string)
     text_file.close()
 
