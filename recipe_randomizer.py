@@ -19,10 +19,11 @@ def randomSelect(df, data):
 
 
 def saveAsTextFile(meal, string):
+    # Create a text file and open to write
     text_file = open(meal['name'] + ".txt", "w")
-    n = text_file.write(string)
+    # write string to text file
+    text_file.write(string)
     text_file.close()
-
 
 def inquire(data) -> dict: 
     questions = [
@@ -56,6 +57,3 @@ def stepList(meal) -> str:
     for index, step in enumerate(meal['steps']): 
         string += str(1 + index) + '. ' + step + '\n'
     return string
-        
-
-

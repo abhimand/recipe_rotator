@@ -39,7 +39,7 @@ while True:
     answers = inquirer.prompt(finishedQuestion)
     if answers['fin'] == 'Yes': 
         break
-print('Thank you! Have a good day :)' + '\n\n\n\n')
-print('P.S. There is a text file for all the recipes we displayed for your viewing purposes. Enjoy!' + '\n')
+print('Thank you! Have a good day :)' + '\n\n')
+print('P.S. There is a folder for all the recipes we displayed for your viewing purposes. Enjoy!' + '\n\n\n')
 
     

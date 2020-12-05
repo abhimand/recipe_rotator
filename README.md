@@ -10,7 +10,7 @@ Rotate recipies all logged in a JSON file
 - [x] Include details (ingredients, steps, time, and credits)
 
 ## To-do
-- [ ] Reformat code
+- [x] Reformat code
 - [ ] Create preset ingredients list w/ type and quantity
 
 ## Built with
