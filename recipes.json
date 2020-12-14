@@ -281,6 +281,125 @@
                 ]
             }
         ],
+        "Indian": [
+            {
+                "name": "Channa Masala",
+                "credits" : "Indian Uncle Chef on Youtube",
+                "cookTime": "40 mins", 
+                "ingredients" : [
+                    {
+                        "quantity": "2 cups (pre-cooked)",
+                        "name": "Basmati Rice",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "2 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1 inch knob",
+                        "name": "Minced Ginger",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "2 Cans",
+                        "name": "Chickpeas",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "2-3 medium-sized",
+                        "name": "Potatoes",
+                        "type": "Carbohydrate/Vegetable"
+                    },
+                    {
+                        "quantity": "3-5 Tomatoes",
+                        "name": "Tomatoes",
+                        "type": "Vegetables"
+                    },
+                    {
+                        "quantity": "Half of medium-sized",
+                        "name": "Yellow Onion",
+                        "type": "Vegetables"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Indian Spices",
+                        "type": "Aromatic"
+                    }
+                ],
+                "steps": [
+                    "Chop up your tomatoes and potatoes roughly.",
+                    "Roast your spices and then add onions till sweat.",
+                    "Add chopped tomatoes and potatoes.",
+                    "Simmer for 30 mins at medium heat.",
+                    "Add chickpeas and simmer until soften",
+                    "Add salt and pepper (and maybe a large amount of butter) to desire after cooking for a few mins, then enjoy!"
+                ]
+            },
+            {
+                "name": "Tikka Masala",
+                "credits" : "Andrew Rea from Binging with Babish",
+                "cookTime": "1 hr 10 mins", 
+                "ingredients" : [
+                    {
+                        "quantity": "2 cups (pre-cooked)",
+                        "name": "Basmati Rice",
+                        "type": "Carbohydrate"
+                    },
+                    {
+                        "quantity": "2 cloves",
+                        "name": "Minced Garlic",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1 inch knob",
+                        "name": "Minced Ginger",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1 pound",
+                        "name": "Choice of Meat",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "1 to 2 cups",
+                        "name": "Yogurt",
+                        "type": "Dairy"
+                    },
+                    {
+                        "quantity": "28oz Can",
+                        "name": "Crushed Tomatoes",
+                        "type": "Vegetables"
+                    },
+                    {
+                        "quantity": "Half of medium-sized",
+                        "name": "Yellow Onion",
+                        "type": "Vegetables"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Indian Spices",
+                        "type": "Aromatic"
+                    },
+                    {
+                        "quantity": "1/2 Cup",
+                        "name": "Heavy Cream",
+                        "type": "Dairy"
+                    }
+                ],
+                "steps": [
+                    "Thin-slice your protein, and then marinade with yogurt and spices.",
+                    "Marinade protein for a few hours to 24.",
+                    "Broil your protein at 500F for 10-12 mins.",
+                    "In the meantime, roast your spices and then add onions till sweat.",
+                    "Optional: Add tomato paste.",
+                    "Add can of crush tomatoes and simmer for 30 mins at medium heat.",
+                    "Add heavy cream and simmer for 15 mins then add cooked protein.",
+                    "Add salt and pepper to desire after cooking for a few mins, then enjoy!"
+                ]
+            }
+        ],
         "American": [
             {
                 "name": "Cheese Burgers", 
@@ -332,6 +451,90 @@
                     "Chop up and cook your onions and with a pinch of sugar to caramelized.",
                     "Optional: Chop up mushrooms and cook with salt and pepper",
                     "Layer up your burger with desired toppings and sauce.",
+                    "Enjoy!"
+                ]
+            },
+            {
+                "name": "Baked Salmon", 
+                "credits" : "Andrew Rea from Binging with Babish",
+                "cookTime": "40 mins",
+                "ingredients" : [
+                    {
+                        "quantity": "Up to you!",
+                        "name": "Salmon",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Panko Crumbs ",
+                        "type": "Carbohydrates"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Spices",
+                        "type": "Aromatics"
+                    },
+                    {
+                        "quantity": "1",
+                        "name": "Egg",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "Up to you!",
+                        "name": "Mayo and Dijon Mustard",
+                        "type": "Condiments"
+                    }
+                ],
+                "steps": [
+                    "Roast panko crumbs on a pan with a good amount of butter.",
+                    "Mix up mayo and dijon mustard half and half. ",
+                    "Mix panko crumbs with egg white.",
+                    "Slice salmon in half and even fillets and then lather mayo/mustard mixture.",
+                    "Place panko crumbs on salmon then bake at 325F for 18 to 25 mins.",
+                    "Salt and pepper to taste, and enjoy!"
+                ]
+            },
+            {
+                "name": "Baked Chicken", 
+                "credits" : "all basic american chefs out there",
+                "cookTime": "40 mins",
+                "ingredients" : [
+                    {
+                        "quantity": "1 pound",
+                        "name": "Chicken: Breast or Chicken Drumsticks",
+                        "type": "Protein"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Bread Crumbs ",
+                        "type": "Carbohydrates"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Spices",
+                        "type": "Aromatics"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Flour or Egg",
+                        "type": "Carbohydrates or Protein"
+                    },
+                    {
+                        "quantity": "to desire",
+                        "name": "Sliced Tomato",
+                        "type": "Vegetable"
+                    }, 
+                    {
+                        "quantity": "a pinch",
+                        "name": "Sugar",
+                        "type": "Carbohydrate"
+                    }
+                ],
+                "steps": [
+                    "Marinade chicken with selected spices for a few mins to many hours.",
+                    "Cover chicken with flour and a bit of water if necessary, this makes it sticky agent.",
+                    "Cover in breadcrumbs. Place in baking pan and drizzle olive oil.",
+                    "Bake at 415F for 20 minutes, then flip once before baking at 15 minutes.",
                     "Enjoy!"
                 ]
             }

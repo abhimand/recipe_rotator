@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd 
 import json
 import inquirer
@@ -6,9 +7,9 @@ import recipe_randomizer as rr
 import recipe_selector as rs
 
 # open json and convert to dataframe
-with open('./recipes.json') as f: 
+with open('/Users/abhi.mand/Documents/Programming/Scripts/recipe_rotator/recipes.json') as f: 
     data = json.load(f)
-df = pd.read_json('./recipes.json')
+df = pd.read_json('/Users/abhi.mand/Documents/Programming/Scripts/recipe_rotator/recipes.json', orient=str)
 
 while True: 
     ### questionnaire flow

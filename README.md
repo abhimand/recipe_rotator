@@ -13,6 +13,12 @@ Rotate recipies all logged in a JSON file
 - [x] Reformat code
 - [ ] Create preset ingredients list w/ type and quantity
 
+## Pre-reqs
+* Dev-tools for Mac
+* PIP
+* Pandas
+* Python Inquirer
+
 ## Built with
 
 * Visual Studio Code
